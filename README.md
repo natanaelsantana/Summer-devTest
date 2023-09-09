@@ -6,9 +6,6 @@
 
 Olá! Esse teste consistia basicamente em criar uma página web (porta: 3000) que se comunique com uma API (porta: 3001), e assim consumir os dados para gerar uma página para que os usuários possam consultar e adquirir os produtos.
 
-## Link para a aplicação
-
-Eu subi para o dockerhub uma imagem do front e uma do backend, através disso fui capaz de fazer o deploy de ambas no Render, se quiser conferir, aqui está:
 
 No diretório Frontend ja existe pronto um `Dockerfile` para configurar a imagem e há um `Docker Compose` a criação da aplicação.
 
@@ -55,7 +52,7 @@ cd Test-Dev-Jr && npm install
 3. Suba a Aaplicação
 
 ```
-npm run compose
+npm run compose ou docker-compose up
 ```
 
 <hr />
