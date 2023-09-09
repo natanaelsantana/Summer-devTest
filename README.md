@@ -6,6 +6,7 @@
 
 Olá! Esse teste consistia basicamente em criar uma página web (porta: 3000) que se comunique com uma API (porta: 3001), e assim consumir os dados para gerar uma página para que os usuários possam consultar e adquirir os produtos.
 
+Se você quiser apenas uma prévia, coloquei o front aqui: https://summer-devtest.onrender.com (devido ao cors os produtos acabam não sendo renderizados) 
 
 No diretório Frontend ja existe pronto um `Dockerfile` para configurar a imagem e há um `Docker Compose` a criação da aplicação.
 
