@@ -6,8 +6,16 @@
 
 Olá! Esse teste consistia basicamente em criar uma página web (porta: 3000) que se comunique com uma API (porta: 3001), e assim consumir os dados para gerar uma página para que os usuários possam consultar e adquirir os produtos.
 
-Se você quiser apenas uma prévia, coloquei o front aqui: https://summer-devtest.onrender.com (devido ao cors os produtos acabam não sendo renderizados) 
+## Deploy
+Se você quiser ver a aplicação rodando efetivamene, eu fiz o deploy no render: https://summer-front.onrender.com/
 
+### Como fiz o deploy: 
+Para fazer o deploy foi necessário fazer upload das imagens dos contâiners(front e back) e em seguida transferir as imagens para o render
+Para que não houvesse problemas com cors, váriáveis de desenvolvimento foram utilizadas. 
+
+
+
+## Instruções para que o teste fosse feito: 
 No diretório Frontend ja existe pronto um `Dockerfile` para configurar a imagem e há um `Docker Compose` a criação da aplicação.
 
 Houve também uma ideia de layout
