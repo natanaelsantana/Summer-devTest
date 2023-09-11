@@ -49,16 +49,16 @@ Houve também uma ideia de layout
 1. Clone o projeto:
 
 ```
-git clone git@github.com:Summer-Developer-Team/Test-Dev-Jr.git
+git clone git@github.com:natanaelsantana/Summer-devTest.git
 ```
 
 2. Entre no diretório e instale as dependências:
 
 ```
-cd Test-Dev-Jr && npm install
+ npm install
 ```
 
-3. Suba a Aaplicação
+3. Suba a A plicação
 
 ```
 npm run compose ou docker-compose up
